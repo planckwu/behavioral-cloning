@@ -42,7 +42,7 @@ if __name__ == '__main__':
         samples_per_epoch=df_train.shape[0],
         nb_epoch=30,
         validation_data=generate_samples(df_valid, local_data_path, augment=False),
-        callbacks=[WeightsLogger(root_path=local_project_path)]
+        callbacks=[WeightsLogger(root_path=local_project_path)],
         nb_val_samples=df_valid.shape[0],
     )
 
