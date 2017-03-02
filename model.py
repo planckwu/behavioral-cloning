@@ -10,8 +10,8 @@ from sklearn import model_selection
 from data import generate_samples, preprocess
 from weights_logger_callback import WeightsLogger
 
-local_project_path = '/'
-local_data_path = os.path.join(local_project_path, 'data')
+
+local_data_path = 'data'
 
 
 if __name__ == '__main__':
