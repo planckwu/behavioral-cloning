@@ -10,7 +10,7 @@ from sklearn import model_selection
 from data import generate_samples, preprocess
 from weights_logger_callback import WeightsLogger
 
-
+local_project_path = '\\'
 local_data_path = 'data'
 
 
